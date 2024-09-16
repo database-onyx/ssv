@@ -54,7 +54,7 @@ app.post("/", async (req, res) => {
   if (pin === "5577") {
     // Redirect to ssvportal1.html
     res.redirect("/ssvportal1");
-  } else if (pin === "7755") {
+  } else if (pin === "1213") {
     // Redirect to kerala.html
     res.redirect("/kerala");
   } else {
