@@ -51,7 +51,7 @@ app.get("/", (req, res) => {
 // Route for PIN authentication
 app.post("/", async (req, res) => {
   const pin = req.body.pin;
-  if (pin === "4242") {
+  if (pin === "7475") {
     // Redirect to ssvportal1.html
     res.redirect("/ssvportal1");
   } else if (pin === "7705") {
